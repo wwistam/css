@@ -61,7 +61,34 @@ h3 {
   width: 100px;
 }
 
-.qlik  {
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mugshot  {
   height: 100px;
   width: 100px;
+}
+
+.kitchen {
+  height: 100px;
+  width: 200px;
+}
+
+.texas {
+  height: 100px;
+  width: 200px;
 }
