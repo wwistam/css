@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font_size: 2.5rem;
+  font-size: 2.5rem;
   font-weight: normal;
 }
 
@@ -28,11 +28,13 @@ h3 {
 .top-container {
   background-color: #bce6eb;
 }
+
 .middle-container {
-
+  background-color: rgb(250, 250, 248);
 }
-.bottom-container {
 
+.bottom-container {
+  background-color: rgb(250, 250, 248);
 }
 
 .developer {
@@ -54,11 +56,6 @@ h3 {
   left: 200px;
   top: 10px;
   margin-top: 50px;
-}
-
-.inu {
-  height: 100px;
-  width: 100px;
 }
 
 * {
@@ -90,5 +87,10 @@ h3 {
 
 .texas {
   height: 100px;
+  width: 200px;
+}
+
+.inu {
+  height: 200px;
   width: 200px;
 }
